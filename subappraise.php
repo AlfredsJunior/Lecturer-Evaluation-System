@@ -7,7 +7,7 @@ require_once 'core/init.php';
 <head>
       <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>APPRAISAL - APPRAISE YOUR LECTURERS</title>
+    <title>Evaluation - Evaluate LECTURERS</title>
   <!-- BOOTSTRAP STYLES-->
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
      <!-- FONTAWESOME STYLES-->
@@ -84,11 +84,11 @@ require_once 'core/init.php';
           </li>
           
           <li class="active-link">
-            <a href="subappraise.php?user=<?php echo $users_id; ?>" ><i class="fa fa-edit"></i><i class="fa fa-user"></i>Appraise Lecturers</a>
+            <a href="subappraise.php?user=<?php echo $users_id; ?>" ><i class="fa fa-edit"></i><i class="fa fa-user"></i>Evaluate Lecturers</a>
           </li>
           
           <li>
-            <a href="viewappraisals.php?user=<?php echo $users_id; ?>" ><i class="fa fa-eye"></i>View Appraisals</a>
+            <a href="viewappraisals.php?user=<?php echo $users_id; ?>" ><i class="fa fa-eye"></i>View Evaluations</a>
           </li>
 
           <li>
@@ -112,7 +112,7 @@ require_once 'core/init.php';
             <h3 style=""><?php echo $Rphoto." ". $surname." ". $firstname; ?></h3>
           </div>
           <div class="col-md-6">
-            <h3><a href="welcome.php?user=<?php echo $users_id; ?>">Dashboard</a> / Appraise Lecturers</h3>
+            <h3><a href="welcome.php?user=<?php echo $users_id; ?>">Dashboard</a> / Evaluate Lecturers</h3>
           </div>
         </div>              
        
@@ -138,9 +138,9 @@ require_once 'core/init.php';
         <form method="POST" action="" enctype="multipart/form-data">
           <?php require 'processpraise.php'; ?>
         <div class="form-group" style="margin-top:2%;">
-          <label>APPRAISAL MODE <span style="color:red;">*</span></label>
+          <label>EVALUATION MODE <span style="color:red;">*</span></label>
           <select class="form-control" name="mode">
-            <option value="Not revealed">~ Please Select Mode~</option>
+            <option value="Not revealed"> Please Select Mode</option>
             <option value="Anonymos">Anonymos (Safe Mode)</option>
             <option value="<?php echo $matric; ?>">Reveal Identity</option>
           </select>
@@ -155,7 +155,7 @@ require_once 'core/init.php';
         </div>
         
         <div class="form-group" style="margin-top:2%;">
-          <label>SELECT LECTURER TO APPRAISE <span style="color:red;">*</span></label>
+          <label>SELECT LECTURER TO EVALUATE <span style="color:red;">*</span></label>
             <select class="form-control" name="lecturer">
               <?php
                 $sql = DB::getInstance()->query("SELECT * FROM users WHERE opt = 'lecturer' ");
@@ -173,14 +173,14 @@ require_once 'core/init.php';
         </div>
         
         <div class="form-group">
-          <label>REASON FOR APPRAISAL <span style="color:red;">*</span></label>
+          <label>REASON FOR EVAUATION <span style="color:red;">*</span></label>
           <input class="form-control" type='text' style="padding:18px;" name="reason" placeholder="example: Awesome Lecturing skills">
         </div>
 
         <div class="form-group" style="margin-top:2%;">
           <label>RATE YOUR LECTURER <span style="color:red;">*</span></label>
           <select class="form-control" name="rate">
-            <option value="No rating">~ Select rate range ~</option>
+            <option value="No rating"> Select rate range </option>
             <option value="10%">10% (percent)</option>
             <option value="20%">20% (percent)</option>
             <option value="30%">30% (percent)</option>
@@ -195,13 +195,13 @@ require_once 'core/init.php';
         </div>
 
         <div class="form-group">
-          <label>APPRAISAL CONTENT HERE <span style="color:red;">*</span></label>
-          <textarea name="praise" rows="5" class="form-control">Write something cool about the lecturer, because It goes a long way in Career Development</textarea>
+          <label>EVALUATION CONTENT HERE <span style="color:red;">*</span></label>
+          <textarea name="praise" rows="5" class="form-control" placeholder="Write something about the lecturer, because It goes a long way in Career Development"></textarea>
         </div> 
 
         <div class="form-group">
-          <label>WHERE CAN I IMPROVE ? <span style="color:red;">*</span></label>
-          <textarea name="improve" rows="5" class="form-control">Outline out my weaknesses inorder to help me Improve</textarea>
+          <label>WHERE CAN HE/SHE IMPROVE ? <span style="color:red;">*</span></label>
+          <textarea name="improve" rows="5" class="form-control" placeholder="Outline out his/her weaknesses in order to help me Improve"></textarea>
         </div> 
 
         <div class="row text-center" style="margin-top:6%;">
@@ -236,7 +236,7 @@ require_once 'core/init.php';
 <div class="footer">
     <div class="row">
         <div class="col-lg-12 text-center">
-            &copy; 2019 All Rights Reserved | Powered by <a href="#">TobbyWeb</a>
+            &copy; 2020 All Rights Reserved KCA UNIVERSITY
         </div>
     </div>
 </div>

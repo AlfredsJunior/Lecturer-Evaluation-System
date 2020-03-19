@@ -7,7 +7,7 @@ require_once 'core/init.php';
 <head>
       <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>APPRAISAL - COMPLAINTS HISTORY</title>
+    <title>Evaluation - COMPLAINTS HISTORY</title>
   <!-- BOOTSTRAP STYLES-->
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
      <!-- FONTAWESOME STYLES-->
@@ -76,11 +76,11 @@ require_once 'core/init.php';
           </li>
           
           <li>
-            <a href="subappraise.php?user=<?php echo $users_id; ?>" ><i class="fa fa-edit"></i><i class="fa fa-user"></i>Appraise Lecturers</a>
+            <a href="subappraise.php?user=<?php echo $users_id; ?>" ><i class="fa fa-edit"></i><i class="fa fa-user"></i>Evaluate Lecturers</a>
           </li>
           
           <li>
-            <a href="viewappraisals.php?user=<?php echo $users_id; ?>" ><i class="fa fa-eye"></i>View Appraisals</a>
+            <a href="viewappraisals.php?user=<?php echo $users_id; ?>" ><i class="fa fa-eye"></i>View Evaluations</a>
           </li>
 
           <li>
@@ -134,7 +134,7 @@ require_once 'core/init.php';
         <table class="table table-striped table-bordered text-center">
           <tr>
             <th style="text-align:center;">CATEGORY</th>
-            <th style="text-align:center;">AUTHOR</th>
+            <th style="text-align:center;">STUDENT</th>
             <th style="text-align:center;">LECTURER</th>
             <th style="text-align:center;">DATE</th>
             <th colspan="2" style="text-align:center;">OPTION</th>
@@ -208,7 +208,7 @@ require_once 'core/init.php';
 <div class="footer">
     <div class="row">
         <div class="col-lg-12 text-center">
-            &copy; 2019 All Rights Reserved | Powered by <a href="#">TobbyWeb</a>
+            &copy; 2020 All Rights Reserved KCA UNIVERSITY
         </div>
     </div>
 </div>

@@ -7,7 +7,7 @@ require_once 'core/init.php';
 <head>
       <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>APPRAISAL - WELCOME ADMIN</title>
+    <title>Evaluation - WELCOME ADMIN</title>
   <!-- BOOTSTRAP STYLES-->
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
      <!-- FONTAWESOME STYLES-->
@@ -70,7 +70,7 @@ require_once 'core/init.php';
           </li>
           
           <li>
-            <a href="praises.php?user=<?php echo $users_id; ?>" ><i class="fa fa-eye"></i>View Appraisals</a>
+            <a href="praises.php?user=<?php echo $users_id; ?>" ><i class="fa fa-eye"></i>View Evaluations</a>
           </li>
 
           <li>
@@ -131,7 +131,7 @@ require_once 'core/init.php';
             <th style="text-align:center;">IDENTITY NO</th>
             <th style="text-align:center;">EMAIL</th>
             <th style="text-align:center;">PHONE</th>
-            <th style="text-align:center;">QUALIFICATION</th>
+            <th style="text-align:center;">Faculty</th>
             <th style="text-align:center;">DATE</th>
             <th colspan="2" style="text-align:center;">OPTION</th>
           </tr>
@@ -162,9 +162,11 @@ require_once 'core/init.php';
             <?php echo $sql->phone;?>
             </td>
 
-             <td>
-            <?php echo $sql->level;?>
+            <td>
+            <?php echo $sql->department;?>
             </td>
+
+            
 
             <td>
             <?php echo $sql->joined;?>
@@ -236,7 +238,7 @@ require_once 'core/init.php';
 <div class="footer">
     <div class="row">
         <div class="col-lg-12 text-center">
-            &copy; 2019 All Rights Reserved | Powered by <a href="#">TobbyWeb</a>
+            &copy; 2020 All Rights Reserved KCA UNIVERSITY
         </div>
     </div>
 </div>

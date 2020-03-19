@@ -7,7 +7,7 @@ require_once 'core/init.php';
 <head>
       <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>APPRAISAL - APPRAISALS</title>
+    <title>Lecturer Evaluation</title>
   <!-- BOOTSTRAP STYLES-->
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
      <!-- FONTAWESOME STYLES-->
@@ -60,7 +60,7 @@ require_once 'core/init.php';
     <div class="row" style="margin-top:10%;">
       <div class="col-md-12 text-center">
           <h1>Welcome to</h1>
-          <h2>Employee Appraisal and Assessment System.</h2>
+          <h2>Lecturer Evaluation and Assessment System.</h2>
           <a href="login.php" class="btn btn-primary btn-lg" style="margin-top:3%;">Get Started</a>
       </div>
     </div>
@@ -80,7 +80,7 @@ require_once 'core/init.php';
 <div class="footer">
     <div class="row">
         <div class="col-lg-12 text-center">
-            &copy; 2019 All Rights Reserved | Powered by <a href="#">TobbyWeb</a>
+            &copy; 2020 All Rights Reserved KCA UNIVERSITY
         </div>
     </div>
 </div>

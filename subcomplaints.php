@@ -7,7 +7,7 @@ require_once 'core/init.php';
 <head>
       <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>APPRAISAL - CREATE COMPLAINTS</title>
+    <title>Evaluation - CREATE COMPLAINTS</title>
   <!-- BOOTSTRAP STYLES-->
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
      <!-- FONTAWESOME STYLES-->
@@ -84,11 +84,11 @@ require_once 'core/init.php';
           </li>
           
           <li>
-            <a href="subappraise.php?user=<?php echo $users_id; ?>" ><i class="fa fa-edit"></i><i class="fa fa-user"></i>Appraise Lecturers</a>
+            <a href="subappraise.php?user=<?php echo $users_id; ?>" ><i class="fa fa-edit"></i><i class="fa fa-user"></i>Evaluate Lecturers</a>
           </li>
           
           <li>
-            <a href="viewappraisals.php?user=<?php echo $users_id; ?>" ><i class="fa fa-eye"></i>View Appraisals</a>
+            <a href="viewappraisals.php?user=<?php echo $users_id; ?>" ><i class="fa fa-eye"></i>View Evaluations</a>
           </li>
 
           <li>
@@ -142,7 +142,7 @@ require_once 'core/init.php';
         <div class="form-group" style="margin-top:2%;">
           <label>MODE <span style="color:red;">*</span></label>
           <select class="form-control" name="mode">
-            <option value="Not revealed">~ Please Select Mode~</option>
+            <option value="Not revealed"> Please Select Mode</option>
             <option value="Anonymos">Anonymos (Safe Mode)</option>
             <option value="<?php echo $matric; ?>">Reveal Identity</option>
           </select>
@@ -159,7 +159,7 @@ require_once 'core/init.php';
         <div class="form-group" style="margin-top:2%;">
           <label>CATEGORY <span style="color:red;">*</span></label>
           <select class="form-control" name="category">
-            <option value="Uncategorized">~ Please Select Category ~</option>
+            <option value="Uncategorized">~Please Select Category </option>
             <option value="Embarrassment">Embarrassment</option>
             <option value="Harrassment">Harrassment</option>
             <option value="Improper Conduct">Improper Conduct</option>
@@ -169,9 +169,9 @@ require_once 'core/init.php';
         </div>
 
        <div class="form-group" style="margin-top:2%;">
-          <label>LEVEL | STATE <span style="color:red;">*</span></label>
+          <label>LEVEL <span style="color:red;">*</span></label>
           <select class="form-control" name="level">
-            <option value="Not revealed">~ Please Select Level | State ~</option>
+            <option value="Not revealed"> Please Select Level </option>
             <option value="Low">Low</option>
             <option value="Intermediate">Intermediate</option>
             <option value="High">High</option>
@@ -204,7 +204,7 @@ require_once 'core/init.php';
 
         <div class="form-group">
           <label>COMPLAINT <span style="color:red;">*</span></label>
-          <textarea name="complaint" rows="5" class="form-control">Briefly Expalin What Happened</textarea>
+          <textarea name="complaint" rows="5" class="form-control" placeholder="Briefly Expalin What Happened"></textarea>
         </div> 
 
         <div class="row text-center" style="margin-top:6%;">
@@ -239,7 +239,7 @@ require_once 'core/init.php';
 <div class="footer">
     <div class="row">
         <div class="col-lg-12 text-center">
-            &copy; 2019 All Rights Reserved | Powered by <a href="#">TobbyWeb</a>
+            &copy; 2020 All Rights Reserved KCA UNIVERSITY
         </div>
     </div>
 </div>

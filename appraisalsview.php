@@ -7,7 +7,7 @@ require_once 'core/init.php';
 <head>
       <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>APPRAISAL - VIEW APPRAISALS</title>
+    <title>Evaluation - VIEW EVALUATIONS</title>
   <!-- BOOTSTRAP STYLES-->
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
      <!-- FONTAWESOME STYLES-->
@@ -74,7 +74,7 @@ require_once 'core/init.php';
           </li>
           
           <li class="active-link">
-            <a href="appraisals.php?user=<?php echo $users_id; ?>" ><i class="fa fa-eye"></i>View Appraisals</a>
+            <a href="appraisals.php?user=<?php echo $users_id; ?>" ><i class="fa fa-eye"></i>View Evaluations</a>
           </li>
 
           <li>
@@ -124,7 +124,7 @@ require_once 'core/init.php';
       <div class="col-md-10 jumbotron" style="background-color:rgba(0,0,0,0.03); border-radius:20px;">
           
             <h3 class="text-center"><b>Subject : </b> <?php echo $sql->first()->lecturer;?></h3>
-            <h3 class="text-center"><b>Reason for Appraisal :</b> <?php echo $sql->first()->reason;?></h3>
+            <h3 class="text-center"><b>Reason for Evaluation :</b> <?php echo $sql->first()->reason;?></h3>
             <hr width="60%"> 
             <h3 class="text-center"><b>Rating : </b><?php echo $sql->first()->rate;?></h3>
             <hr width="60%"> 
@@ -133,7 +133,7 @@ require_once 'core/init.php';
           <div class="row">
             <div class="col-md-1"></div>
             <div class="col-md-10 text-center">
-              <h3>Appraisal Content: </h3>
+              <h3>Evaluation Content: </h3>
               <textarea class="form-control" rows="8" readonly style="text-align:justify;"><?php echo $sql->first()->praise; ?></textarea>
             </div>
             <div class="col-md-1"></div>
@@ -209,7 +209,7 @@ require_once 'core/init.php';
 <div class="footer">
     <div class="row">
         <div class="col-lg-12 text-center">
-            &copy; 2019 All Rights Reserved | Powered by <a href="#">TobbyWeb</a>
+            &copy; 2020 All Rights Reserved KCA UNIVERSITY
         </div>
     </div>
 </div>

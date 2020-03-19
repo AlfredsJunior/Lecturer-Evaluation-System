@@ -7,7 +7,7 @@ require_once 'core/init.php';
 <head>
       <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>APPRAISAL - APPRAISALS</title>
+    <title>Evaluation - Evaluation</title>
   <!-- BOOTSTRAP STYLES-->
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
      <!-- FONTAWESOME STYLES-->
@@ -70,7 +70,7 @@ require_once 'core/init.php';
           </li>
           
           <li class="active-link">
-            <a href="appraisals.php?user=<?php echo $users_id; ?>" ><i class="fa fa-eye"></i>View Appraisals</a>
+            <a href="appraisals.php?user=<?php echo $users_id; ?>" ><i class="fa fa-eye"></i>View Evaluations</a>
           </li>
 
           <li>
@@ -125,7 +125,7 @@ require_once 'core/init.php';
           <tr>
             <th style="text-align:center;">REASON</th>
             <th style="text-align:center;">RATE</th>
-            <th style="text-align:center;">AUTHOR</th>
+            <th style="text-align:center;">STUDENT</th>
             <th style="text-align:center;">DATE</th>
             <th style="text-align:center;">OPTION</th>
           </tr>
@@ -164,7 +164,7 @@ require_once 'core/init.php';
         else {
           ?>
               <div class="alert alert-danger">
-                  <p>Dear <b><?php echo $key; ?></b>, YOU DO NOT HAVE ANY APPRAISAL YET !!!<br/> <b>Only Successfully Submitted Appraisals involving <u>You</u> will Appear here</b></p>
+                  <p>Dear <b><?php echo $key; ?></b>, YOU DO NOT HAVE ANY EVALUATION YET !!!<br/> <b>Only Successfully Submitted Evaluations involving <u>You</u> will Appear here</b></p>
               </div>
           
         <?php
@@ -191,7 +191,7 @@ require_once 'core/init.php';
 <div class="footer">
     <div class="row">
         <div class="col-lg-12 text-center">
-            &copy; 2019 All Rights Reserved | Powered by <a href="#">TobbyWeb</a>
+            &copy; 2020 All Rights Reserved KCA UNIVERSITY 
         </div>
     </div>
 </div>

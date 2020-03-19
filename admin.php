@@ -7,7 +7,7 @@ require_once 'core/init.php';
 <head>
       <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>APPRAISAL - WELCOME ADMIN</title>
+    <title>Evaluation - WELCOME ADMIN</title>
   <!-- BOOTSTRAP STYLES-->
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
      <!-- FONTAWESOME STYLES-->
@@ -70,7 +70,7 @@ require_once 'core/init.php';
           </li>
           
           <li>
-            <a href="praises.php?user=<?php echo $users_id; ?>" ><i class="fa fa-eye"></i>View Appraisals</a>
+            <a href="praises.php?user=<?php echo $users_id; ?>" ><i class="fa fa-eye"></i>View Evaluations</a>
           </li>
 
           <li>
@@ -122,7 +122,7 @@ require_once 'core/init.php';
           <div class="div-square" style="padding:20px;">
             <a href="praises.php?user=<?php echo $users_id; ?>" >
               <i class="fa fa-envelope-o fa-5x"></i>
-              <h4>View Appraisals</h4>
+              <h4>View Evaluations</h4>
             </a>
           </div>
         </div>
@@ -181,7 +181,7 @@ require_once 'core/init.php';
 <div class="footer">
     <div class="row">
         <div class="col-lg-12 text-center">
-            &copy; 2019 All Rights Reserved | Powered by <a href="#">TobbyWeb</a>
+            &copy; 2020 All Rights Reserved KCA UNIVERSITY
         </div>
     </div>
 </div>

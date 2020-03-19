@@ -7,7 +7,7 @@ require_once 'core/init.php';
 <head>
       <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>APPRAISAL - VIEW PROFILE</title>
+    <title>Evaluation - VIEW PROFILE</title>
   <!-- BOOTSTRAP STYLES-->
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
      <!-- FONTAWESOME STYLES-->
@@ -82,11 +82,11 @@ require_once 'core/init.php';
           </li>
           
           <li>
-            <a href="subappraise.php?user=<?php echo $users_id; ?>" ><i class="fa fa-edit"></i><i class="fa fa-user"></i>Appraise Lecturers</a>
+            <a href="subappraise.php?user=<?php echo $users_id; ?>" ><i class="fa fa-edit"></i><i class="fa fa-user"></i>Evaluate Lecturers</a>
           </li>
           
           <li>
-            <a href="viewappraisals.php?user=<?php echo $users_id; ?>" ><i class="fa fa-eye"></i>View Appraisals</a>
+            <a href="viewappraisals.php?user=<?php echo $users_id; ?>" ><i class="fa fa-eye"></i>View Evaluations</a>
           </li>
 
           <li class="active-link">
@@ -168,15 +168,15 @@ require_once 'core/init.php';
 
     <div class="row text-center" style="margin-top:2%;">
         <div class="col-md-4" style="margin-top:3%;">
-            <label><b>MATRIC NUMBER :</b> </label>
+            <label><b>REGISTRATION NUMBER :</b> </label>
             <input type="text" name="matric" class="form-control text-center" value="<?php echo $matric; ?>" disabled autocomplete="off">
         </div>
         <div class="col-md-4" style="margin-top:3%;">
-            <label><b>DEPARTMENT :</b></label>
+            <label><b>FACULTY :</b></label>
             <input type="text" name="department" class="form-control text-center" value="<?php echo $department; ?>" disabled autocomplete="off">
         </div>
         <div class="col-md-4" style="margin-top:3%;">
-            <label><b>LEVEL :</b></label>
+            <label><b>YEAR :</b></label>
             <input type="text" name="level" class="form-control text-center" value="<?php echo $level; ?>" autocomplete="off">
         </div>
     </div>
@@ -228,7 +228,7 @@ require_once 'core/init.php';
 <div class="footer">
     <div class="row">
         <div class="col-lg-12 text-center">
-            &copy; 2019 All Rights Reserved | Powered by <a href="#">TobbyWeb</a>
+            &copy; 2020 All Rights Reserved KCA UNIVERSITY
         </div>
     </div>
 </div>

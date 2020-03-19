@@ -162,7 +162,7 @@ require_once 'core/init.php';
 
         <div class="form-group" style="margin-top:3%;">
           <label>PASSWORD:</label>
-          <input type="password" style="padding:18px;" class="form-control" placeholder="Same as your Matric Number/Identity Number" name="password" autocomplete="off">
+          <input type="password" style="padding:18px;" class="form-control" placeholder="Same as your Registration Number" name="password" autocomplete="off">
         </div>
 
         <div class="col-md-12">
@@ -203,7 +203,7 @@ require_once 'core/init.php';
 <div class="footer">
     <div class="row">
         <div class="col-lg-12 text-center">
-            &copy; 2019 All Rights Reserved | Powered by <a href="#">TobbyWeb</a>
+            &copy; 2020 All Rights Reserved KCA UNIVERSITY
         </div>
     </div>
 </div>

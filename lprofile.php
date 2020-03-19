@@ -7,7 +7,7 @@ require_once 'core/init.php';
 <head>
       <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>APPRAISAL - VIEW & UPDATE PROFILE</title>
+    <title>Evaluation - VIEW & UPDATE PROFILE</title>
   <!-- BOOTSTRAP STYLES-->
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
      <!-- FONTAWESOME STYLES-->
@@ -75,7 +75,7 @@ require_once 'core/init.php';
           </li>
           
           <li>
-            <a href="appraisals.php?user=<?php echo $users_id; ?>" ><i class="fa fa-eye"></i>View Appraisals</a>
+            <a href="appraisals.php?user=<?php echo $users_id; ?>" ><i class="fa fa-eye"></i>View Evaluations</a>
           </li>
 
           <li>
@@ -233,7 +233,7 @@ require_once 'core/init.php';
             <input type="text" name="matric" class="form-control text-center" value="<?php echo $matric; ?>" disabled autocomplete="off">
         </div>
         <div class="col-md-4" style="margin-top:3%;">
-            <label><b>DEPARTMENT :</b></label>
+            <label><b>FACULTY :</b></label>
             <input type="text" name="department" class="form-control text-center" value="<?php echo $department; ?>" disabled autocomplete="off">
         </div>
         <div class="col-md-4" style="margin-top:3%;">
@@ -289,7 +289,7 @@ require_once 'core/init.php';
 <div class="footer">
     <div class="row">
         <div class="col-lg-12 text-center">
-            &copy; 2019 All Rights Reserved | Powered by <a href="#">TobbyWeb</a>
+            &copy; 2020 All Rights Reserved KCA UNIVERSITY
         </div>
     </div>
 </div>

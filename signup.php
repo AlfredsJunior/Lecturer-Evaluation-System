@@ -93,13 +93,13 @@ require_once 'core/init.php';
 
 
         <div class="form-group" style="margin-top:2%;">
-          <label>FIRSTNAME <span style="color:red;">*</span></label>
+          <label>FIRST NAME <span style="color:red;">*</span></label>
           <input type="text" style="padding:18px;" class="form-control" placeholder="Enter Your Firstname"  name="firstname" autocomplete="off" required>
         </div>
 
         <div class="form-group" style="margin-top:2%;">
-          <label>MATRIC NUMBER <span style="color:red;">*</span></label>
-          <input type="text" style="padding:18px;" class="form-control" placeholder="Enter Your Matric Number"  name="matric" autocomplete="off" required>
+          <label>REGISTRATION NUMBER <span style="color:red;">*</span></label>
+          <input type="text" style="padding:18px;" class="form-control" placeholder="Enter Your Registration Number"  name="matric" autocomplete="off" required>
         </div>
 
 
@@ -115,18 +115,18 @@ require_once 'core/init.php';
         </div>
 
         <div class="form-group" style="margin-top:2%;">
-          <label>DEPARTMENT <span style="color:red;">*</span></label>
-          <input type="text" style="padding:18px;" class="form-control" placeholder="Enter Your Department"  name="department" value="Computer Science" autocomplete="off" required readonly>
+          <label>FACULTY <span style="color:red;">*</span></label>
+          <input type="text" style="padding:18px;" class="form-control" placeholder="Enter Your Department"  name="department"  autocomplete="off" required >
         </div>        
 
         <div class="form-group" style="margin-top:2%;">
-          <label>LEVEL <span style="color:red;">*</span></label>
+          <label>LEVEL | Year Of Study <span style="color:red;">*</span></label>
           <select class="form-control" name="level">
-            <option>~ Please Select ~</option>
-            <option value="ND I">ND I</option>
-            <option value="ND II">ND II</option>
-            <option value="HND I">HND I</option>
-            <option value="HND II">HND II</option>
+            <option> Please Select Year of Study </option>
+            <option value="Year I">Year I</option>
+            <option value="Year II">Year II</option>
+            <option value="Year III">Year III</option>
+            <option value="Year IV">Year IV</option>
           </select>
         </div>
 
@@ -170,7 +170,7 @@ require_once 'core/init.php';
 <div class="footer">
     <div class="row">
         <div class="col-lg-12 text-center">
-            &copy; 2019 All Rights Reserved | Powered by <a href="#">TobbyWeb</a>
+            &copy; 2020 All Rights Reserved KCA UNIVERSITY
         </div>
     </div>
 </div>
